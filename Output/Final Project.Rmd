@@ -13,9 +13,16 @@ output:
     toc: true
     toc_depth: 2
     number_sections: true
+editor_options: 
+  chunk_output_type: console
 ---
+\newpage
+\listoffigures
+\listoftables
+\newpage
 
-```{r setup, include=FALSE}
+
+```{r setup, include=FALSE, echo=FALSE, warning=FALSE}
 knitr::opts_knit$set(root.dir = here::here())
 library(tidyverse)
 library(lubridate)
@@ -158,6 +165,7 @@ ggplot(pm25_daily, aes(x = Date, y = raw_conc_daily)) +
     y = "Daily Mean PM2.5"
   ) +
   theme_minimal()
+
 ```
 
 ```{Analysis, Concentration in Ulaanbaatar}
@@ -234,7 +242,7 @@ ggplot(births_merged, aes(x = Date, y = Low_Birth_Weight)) +
   theme_minimal()
 ```
 ```{Analysis, Monthly Low Birth Weight Births in Ulaanbaatar}
-#This chart shows that between 2016 and approximately 2021, the rate of LBW births was notably high and fluctuated significantly, consistently surpassing 160 births per month, occasionally exceeding 200. However, starting in 2022, a clear downward trend is evident, with both the average rate of LBW births and their levels of variability decreasing. By 2024, the number of LBW births often dips below 150 per month, marking some of the lowest figures recorded during the observed timeframe.
+
 
 ```
 #Merge Exposure and Outcome Data
