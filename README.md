@@ -109,11 +109,22 @@ aimag name which was only Ulaanbaatar.
 
 ### Ulaanbaatar_PM2.5_2015_YTD.csv (same for 11 files from 2015 to 2025)
 
-| Column Name | Description                        | Data Type | Unit         |
-|:------------|:-----------------------------------|:----------|:-------------|
-|             |                                    |           |              |
-|             |                                    |           |              |
-
+| Column Name   | Description                               | Data Type | Unit         |
+|:--------------|:------------------------------------------|:----------|:-------------|
+| Site          | one value: Ulaanbaatar                    | Character | -            |
+| Parameter     | one value: PM2.5 - Principal              | Character | -            |
+| Date..LT.     | Local timestamp (Asia/Ulaanbaatar, UTC+8) | Character | -            |
+| Year          | Date component                            | Integer   | Number       |
+| Month         | Date component                            | Integer   | Number       |
+| Day           | Date component                            | Integer   | Number       |
+| Hour          | Tiem component                            | Integer   | Number       |
+| NowCast.Conc. | Real-time weighted concentration          | Number    | µg/m³        |
+| AQI           | U.S. Air Quality Index (AQI) value        | Integer   | Number       |
+| AQI.Category  | AQI label (e.g., Good, Unhealthy)         | Character | -            |
+| Raw.Conc.     | Measured PM2.5                            | Number    | µg/m³        |
+| Conc..Unit    | Unit name                                 | Character | -            |
+| Duration      | one value: 1 hour                         | Character | -            |
+| QC.Name       | Quality control information or flags      | Character | -            |
 
 ## Scripts and code
 
