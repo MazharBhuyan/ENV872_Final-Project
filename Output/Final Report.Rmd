@@ -407,7 +407,7 @@ Several limitations should be considered. First, monthly aggregated data limited
 - Multicollinearity among lagged exposure variables was high, limiting the interpretability of individual lag effects.
 
 
-#Conclusion
+# Conclusion
 
 While elevated PM2.5 exposure in Ulaanbaatar is clearly a recurring and serious public health concern, this analysis does not find strong statistical evidence that short-term monthly or lagged PM2.5 exposure is independently associated with changes in LBW rates. Future studies should explore longer exposure windows and consider individual-level birth data to strengthen causal inference as we lacked the birth data here.
 
