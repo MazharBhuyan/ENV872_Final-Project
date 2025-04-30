@@ -226,7 +226,7 @@ ggplot(births_merged, aes(x = Date, y = Live_Births)) +
   geom_line(color = "darkgreen") +
   labs(
     title = "Figure 4. Monthly Live Births in Ulaanbaatar",
-    x = "Date",
+    x = "Date", 
     y = "Number of Live Births"
   ) +
   theme_minimal()
